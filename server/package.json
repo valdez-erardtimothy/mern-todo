@@ -1,0 +1,23 @@
+{
+  "name": "@mern-todo/server",
+  "version": "0.0.1",
+  "description": "ExpressJs server for mern-todo app",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "serve": "nodemon src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
