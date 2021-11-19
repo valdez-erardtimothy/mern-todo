@@ -10,4 +10,4 @@ module.exports = (app) => {
   app.get('/test', (req, res) => {
     res.send({ message: 'you are connected to mern-todo!' });
   });
-}
+};
